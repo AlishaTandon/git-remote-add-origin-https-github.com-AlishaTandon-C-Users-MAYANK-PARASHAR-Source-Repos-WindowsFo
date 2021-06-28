@@ -1,0 +1,14 @@
+D:\Mahesh\MFS100\hirenSir\MFS100-Windows-SDK-9.0.1.1\Sample\MFS100_VS2013\MFS100_VS2013\bin\Debug\MFS100_VS2013.exe
+D:\Mahesh\MFS100\hirenSir\MFS100-Windows-SDK-9.0.1.1\Sample\MFS100_VS2013\MFS100_VS2013\bin\Debug\MFS100_VS2013.pdb
+D:\Mahesh\MFS100\hirenSir\MFS100-Windows-SDK-9.0.1.1\Sample\MFS100_VS2013\MFS100_VS2013\bin\Debug\MANTRA.MFS100.dll
+D:\Mahesh\MFS100\hirenSir\MFS100-Windows-SDK-9.0.1.1\Sample\MFS100_VS2013\MFS100_VS2013\bin\Debug\MANTRA.MFS100.pdb
+D:\Mahesh\MFS100\hirenSir\MFS100-Windows-SDK-9.0.1.1\Sample\MFS100_VS2013\MFS100_VS2013\bin\Debug\MFS100_VS2013.exe.config
+D:\Mahesh\MFS100\hirenSir\MFS100-Windows-SDK-9.0.1.1\Sample\MFS100_VS2013\Output\Debug\MFS100_VS2013.exe.config
+D:\Mahesh\MFS100\hirenSir\MFS100-Windows-SDK-9.0.1.1\Sample\MFS100_VS2013\Output\Debug\MFS100_VS2013.exe
+D:\Mahesh\MFS100\hirenSir\MFS100-Windows-SDK-9.0.1.1\Sample\MFS100_VS2013\Output\Debug\MFS100_VS2013.pdb
+D:\Mahesh\MFS100\hirenSir\MFS100-Windows-SDK-9.0.1.1\Sample\MFS100_VS2013\MFS100_VS2013\obj\Debug\MFS100_VS2013.csprojResolveAssemblyReference.cache
+D:\Mahesh\MFS100\hirenSir\MFS100-Windows-SDK-9.0.1.1\Sample\MFS100_VS2013\MFS100_VS2013\obj\Debug\MFS100_VS2013.frmMFS100.resources
+D:\Mahesh\MFS100\hirenSir\MFS100-Windows-SDK-9.0.1.1\Sample\MFS100_VS2013\MFS100_VS2013\obj\Debug\MFS100_VS2013.Properties.Resources.resources
+D:\Mahesh\MFS100\hirenSir\MFS100-Windows-SDK-9.0.1.1\Sample\MFS100_VS2013\MFS100_VS2013\obj\Debug\MFS100_VS2013.csproj.GenerateResource.Cache
+D:\Mahesh\MFS100\hirenSir\MFS100-Windows-SDK-9.0.1.1\Sample\MFS100_VS2013\MFS100_VS2013\obj\Debug\MFS100_VS2013.exe
+D:\Mahesh\MFS100\hirenSir\MFS100-Windows-SDK-9.0.1.1\Sample\MFS100_VS2013\MFS100_VS2013\obj\Debug\MFS100_VS2013.pdb

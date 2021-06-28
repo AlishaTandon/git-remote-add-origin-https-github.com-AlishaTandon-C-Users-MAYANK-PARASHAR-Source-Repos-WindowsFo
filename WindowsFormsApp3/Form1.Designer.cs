@@ -42,6 +42,9 @@ namespace WindowsFormsApp3
             this.label7 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.picFinger = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.picFinger)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -72,9 +75,10 @@ namespace WindowsFormsApp3
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Navy;
+            this.button2.Enabled = false;
             this.button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(741, 158);
+            this.button2.Location = new System.Drawing.Point(956, 481);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(164, 49);
             this.button2.TabIndex = 10;
@@ -85,7 +89,7 @@ namespace WindowsFormsApp3
             // textRollNo
             // 
             this.textRollNo.Font = new System.Drawing.Font("Arial Narrow", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textRollNo.Location = new System.Drawing.Point(454, 163);
+            this.textRollNo.Location = new System.Drawing.Point(278, 168);
             this.textRollNo.Name = "textRollNo";
             this.textRollNo.Size = new System.Drawing.Size(223, 44);
             this.textRollNo.TabIndex = 9;
@@ -94,7 +98,7 @@ namespace WindowsFormsApp3
             // 
             this.textAadharNo.Enabled = false;
             this.textAadharNo.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textAadharNo.Location = new System.Drawing.Point(454, 360);
+            this.textAadharNo.Location = new System.Drawing.Point(278, 486);
             this.textAadharNo.Name = "textAadharNo";
             this.textAadharNo.Size = new System.Drawing.Size(223, 44);
             this.textAadharNo.TabIndex = 2;
@@ -103,7 +107,7 @@ namespace WindowsFormsApp3
             // 
             this.textLastName.Enabled = false;
             this.textLastName.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textLastName.Location = new System.Drawing.Point(454, 286);
+            this.textLastName.Location = new System.Drawing.Point(278, 263);
             this.textLastName.Name = "textLastName";
             this.textLastName.Size = new System.Drawing.Size(223, 44);
             this.textLastName.TabIndex = 1;
@@ -112,7 +116,7 @@ namespace WindowsFormsApp3
             // 
             this.textFirstName.Enabled = false;
             this.textFirstName.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textFirstName.Location = new System.Drawing.Point(454, 226);
+            this.textFirstName.Location = new System.Drawing.Point(278, 373);
             this.textFirstName.Name = "textFirstName";
             this.textFirstName.Size = new System.Drawing.Size(223, 44);
             this.textFirstName.TabIndex = 0;
@@ -133,7 +137,7 @@ namespace WindowsFormsApp3
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Gold;
             this.label5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(100, 238);
+            this.label5.Location = new System.Drawing.Point(100, 380);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(157, 32);
             this.label5.TabIndex = 12;
@@ -144,7 +148,7 @@ namespace WindowsFormsApp3
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Gold;
             this.label6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(100, 298);
+            this.label6.Location = new System.Drawing.Point(100, 270);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(154, 32);
             this.label6.TabIndex = 13;
@@ -155,7 +159,7 @@ namespace WindowsFormsApp3
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Gold;
             this.label7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(100, 372);
+            this.label7.Location = new System.Drawing.Point(100, 498);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(154, 32);
             this.label7.TabIndex = 14;
@@ -166,7 +170,7 @@ namespace WindowsFormsApp3
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Gold;
             this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(100, 444);
+            this.label3.Location = new System.Drawing.Point(950, 168);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(170, 32);
             this.label3.TabIndex = 15;
@@ -183,12 +187,35 @@ namespace WindowsFormsApp3
             this.label9.Size = new System.Drawing.Size(0, 28);
             this.label9.TabIndex = 17;
             // 
+            // picFinger
+            // 
+            this.picFinger.Location = new System.Drawing.Point(628, 168);
+            this.picFinger.Name = "picFinger";
+            this.picFinger.Size = new System.Drawing.Size(268, 315);
+            this.picFinger.TabIndex = 18;
+            this.picFinger.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Navy;
+            this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(956, 242);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(164, 45);
+            this.button1.TabIndex = 19;
+            this.button1.Text = "Capture";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MistyRose;
-            this.ClientSize = new System.Drawing.Size(961, 539);
+            this.ClientSize = new System.Drawing.Size(1455, 584);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.picFinger);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label7);
@@ -204,6 +231,7 @@ namespace WindowsFormsApp3
             this.Controls.Add(this.textRollNo);
             this.Name = "Form1";
             this.Text = "CASB DATA SEARCH";
+            ((System.ComponentModel.ISupportInitialize)(this.picFinger)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -224,6 +252,8 @@ namespace WindowsFormsApp3
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.PictureBox picFinger;
+        private System.Windows.Forms.Button button1;
     }
 }
 
